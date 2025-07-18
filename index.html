@@ -10,6 +10,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <!-- ANIMACIONES -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <!--Iconos Habilidades-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- CSS -->
         <link rel="stylesheet" href="Assets/estilos/style.css"/>
         </head>
@@ -20,10 +22,10 @@
                 <a class="navbar-brand fw-bold" href="#">Catalina_Monserrat</a>
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link" href="#">Inicio</a>
-                    <a class="nav-link" href="#">Sobre mi</a>
-                    <a class="nav-link" href="#">Proyectos</a>
-                    <a class="nav-link" href="#">Habilidades</a>
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                    <a class="nav-link" href="#habilidades">Habilidades</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                 </div>
             </div>
         </nav>
@@ -39,11 +41,23 @@
                 <h1 class="animate__animated animate__fadeInDown">Hi, i'm Catalina Monserrat</h1>
                 <p class="animate__animated animate__fadeInUp animate__delay-1s">Desarrolladora en formación apasionada por el diseño, la programación y los desafios digitales </p>
                 <a href="#proyectos" class="btn btn-outline-light btn-lg animate__animated animate__bounceIn animate__delay-2s">Ver mis proyectos</a>
+                <button id="btn-like" class="btn btn-outline-light btn-lg animate__animated animate__bounceIn animate__delay-3s">Me gusta ❤️</button>
+                <p id="contador">❤️ 0</p>
             </div>
         </div>
         <!--FIN HERO-->
         <!--Sobre Mi-->
-        <div class="container sobre-mi">
+        <div id="sobre-mi" class="container sobre-mi">
+            <h2 class="text-center">Sobre Mí</h2>
+            <p class="text-justify">
+                ¡Hola! Soy Catalina Monserrat, estudiante en formación como desarrolladora web. Actualmente estoy participando en un bootcamp intensivo donde he aprendido a trabajar con tecnologías como HTML, CSS, JavaScript y Python.  
+                <br><br>
+                Mi interés por el desarrollo surgió de la curiosidad por entender cómo funcionan las páginas web y transformarlo en algo concreto, creativo y funcional. Me motiva la posibilidad de seguir creciendo, aportar con soluciones digitales y combinar diseño con lógica.  
+                <br><br>
+                Disfruto trabajar en equipo, enfrentar nuevos desafíos y mejorar continuamente mis habilidades. Estoy construyendo mi portafolio con mucha dedicación, buscando siempre que cada proyecto refleje lo que he aprendido y lo que soy capaz de crear.
+            </p>
+            <a href="assets/docs/catalina_villegas_ortega_cv.pdf" id="btn-descargar-cv" target="_blank" class="btn btn-outline-light">Descargar CV</a>
+        </div>
 
         <!--FIN Sobre Mi-->
         <!--Proyectos-->
@@ -51,52 +65,209 @@
             <h2 class="text-center">Proyectos Destacados</h2>
             <div class="row justify-content-center g-4">
                 <!--Tarjeta 1-->
-                <div class="col-md-4">
-                    <div class="tarjeta-proyecto">
-                        <img src="assets/imagenes/proyecto1.jpg" alt="Imagen proyecto 1">
+                <div class="col-md-4 d-flex">
+                    <div class="tarjeta-proyecto h-100 d-flex flex-column justify-content-between">
+                        <img src="assets/imagenes/galeria_fotografica.jpg" alt="página web, con imagen principal de mujer, perro negro, perro blanco y gato romano">
                         <h3>Galeria de Imagenes</h3>
                         <p>Sitio web para la visualización y organizaciónd de fotografias</p>
                         <div class="tags">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
+                        <a href="https://github.com/CatalinaMonserrat/Galeria_imageles_AE6_ABP.git" class="btn btn-outline-light"target="_blank">Ver Proyecto</a>
                         </div>
                     </div>
                     </div>
 
                     <!-- Tarjeta 2 -->
-                    <div class="col-md-4">
-                    <div class="tarjeta-proyecto">
-                        <img src="assets/imagenes/proyecto2.jpg" alt="Imagen proyecto 2">
+                    <div class="col-md-4 d-flex">
+                    <div class="tarjeta-proyecto h-100 d-flex flex-column justify-content-between">
+                        <img src="assets/imagenes/sitio_ciberseguridad.jpg" alt="pagina web sitio ciberseguridad, imagen de candado y mensaje de importancia de la ciberseguridad">
                         <h3>Página Cyberseguridad</h3>
                         <p>Sitio web informativo orientado a la concientización sobre ciberseguridad, buenas prácticas y protección de datos en entornos digitales</p>
                         <div class="tags">
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
+                        <a href="https://github.com/CatalinaMonserrat/Sitio_ciberseguridad.git" class="btn btn-outline-light"target="_blank">Ver Proyecto</a>
                         </div>
                     </div>
                     </div>
 
                     <!-- Tarjeta 3 -->
-                    <div class="col-md-4">
-                    <div class="tarjeta-proyecto">
-                        <img src="assets/imagenes/proyecto3.jpg" alt="Imagen proyecto 3">
+                    <div class="col-md-4 d-flex">
+                    <div class="tarjeta-proyecto h-100 d-flex flex-column justify-content-between">
+                        <img src="assets/imagenes/ejercicios_python.jpg" alt="Imagen visual studio code con ejercicio python">
                         <h3>Ejercicios Python</h3>
                         <p>Ejercicios prácticos desarrollados en Python para aplicar estructuras de control, funciones, manejo de listas y lógica de programación.</p>
                         <div class="tags">
                         <span>Python</span>
+                        <a href="https://github.com/CatalinaMonserrat/Python_modulo_3.git" class="btn btn-outline-light"target="_blank">Ver Proyecto</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!--FIN Proyectos-->
+        <!--Habilidades-->
+        <section id="habilidades" class="habilidades-neon container py-5">
+            <h2 class="text-center">Mis Habilidades</h2>
+            <div class="row justify-content-center g-4">
+
+                <div class="col-md-2">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <h3 class="text-center">HTML</h3>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 50%;"></div>
+                        </div>
+                        <p class="text-center">Intermedio</p>
                     </div>
                 </div>
-                </section>
-        <!--FIN Proyectos-->
+                <div class="col-md-2">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-brands fa-css3-alt"></i>
+                        </div>
+                        <h3 class="text-center">CSS</h3>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 50%;"></div>
+                        </div>
+                        <p class="text-center">Intermedio</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <h3 class="text-center">JavaScript</h3>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 30%;"></div>
+                        </div>
+                        <p class="text-center">Básico</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h3 class="text-center">Python</h3>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 30%;"></div>
+                        </div>
+                        <p class="text-center">Básico</p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-brands fa-git-alt"></i>
+                        </div>
+                        <h3 class="text-center">Git</h3>
+                        <div class="barra-progreso">
+                            <div class="progreso" style="width: 30%;"></div>
+                        </div>
+                        <p class="text-center">Básico</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        
-        <script src="" async defer></script>
+        <!--Habilidades Blandas-->
+        <section id="habilidades" class="habilidades-neon container py-5">
+            <h2 class="text-center">Habilidades Blandas</h2>
+            <div class="row justify-content-center g-4">
+
+                <div class="col-md-3">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-solid fa-people-group"></i>
+                        </div>
+                        <h3 class="text-center">Trabajo en Equipo</h3>
+                        <p class="text-center">Capacidad demostrada para colaborar de forma efectiva con compañeros y clientes, promoviendo un entorno de cooperación y apoyo mutuo.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-solid fa-comments"></i>
+                        </div>
+                        <h3 class="text-center">Comunicación Efectiva</h3>
+                        <p class="text-center">Habilidad para expresar ideas técnicas y no técnicas de manera clara y precisa, tanto en contextos orales como escritos.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-solid fa-arrows-rotate"></i>
+                        </div>
+                        <h3 class="text-center">Adaptabilidad</h3>
+                        <p class="text-center">Facilidad para incorporar nuevas tecnologías y ajustarse rápidamente a entornos cambiantes o desafíos inesperados.</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="tarjeta-habilidad">
+                        <div class="icono">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3 class="text-center">Resolución de Problemas</h3>
+                        <p class="text-center">Enfoque analítico y práctico para identificar soluciones eficientes ante distintos tipos de desafíos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FIN Habilidades-->
+        <!--Contacto-->
+        <section id="contacto" class="contacto-neon container py-5">
+            <h2 class="text-center">Contacto</h2>
+            <div class="row justify-content-center g-4">
+                <div class="col-md-4">
+                        <div class="tarjeta-contacto">
+                            <div class="icono-contacto">
+                                <i class="fa-regular fa-envelope"></i>
+                            </div>
+                            <h3 class="text-center">Email</h3>
+                            <p class="text-center">kata1800@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tarjeta-contacto">
+                            <div class="icono-contacto">
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                            </div>
+                            <h3 class="text-center">Teléfono</h3>
+                            <p class="text-center">+569 30535389</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="tarjeta-contacto">
+                            <div class="icono-contacto">
+                                <i class="fa-brands fa-github"></i>
+                            </div>
+                            <h3 class="text-center">GitHub</h3>
+                            <p class="text-center">@CatalinaMonserrat</p>
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </section>
+        <!--FIN Contacto-->
+        <!--Footer-->
+        <footer class="footer-neon">
+            <p class="text-center">Catalina Villegas Ortega &copy; 2025</p>
+        </footer>
+        <!--FIN Footer-->
+        <!-- Botón "Volver arriba" -->
+        <button id="btn-volver-arriba" class="btn btn-outline-light" style="display: none; position: fixed; bottom: 40px; right: 40px; z-index: 999;">
+            ⬆ Volver arriba
+        </button>
+        <!--Scripts-->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="Assets/js/"></script>     
+        <script src="Assets/js/script.js"></script>     
     </body>
 </html>
