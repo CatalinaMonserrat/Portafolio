@@ -233,3 +233,32 @@ h1, h2, p {
     font-size: 0.5rem;
     text-shadow: 0 0 8px #ff00aa;
 }
+/*Resposibidad/*
+/* Teléfonos */
+@media (max-width: 576px) {
+  .texto-hero h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .parallax {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .tarjeta-proyecto {
+    margin: 10px 0;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .foto-perfil img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .texto-hero {
+    text-align: center;
+  }
+}
