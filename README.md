@@ -32,11 +32,6 @@ Este es mi portafolio personal desarrollado durante el Bootcamp de Skillnest. Aq
 
 Soy Catalina Monserrat, desarrolladora en formación, apasionada por la programación, el diseño y la resolución de desafíos digitales. Este portafolio refleja lo aprendido y practicado durante mi formación.
 
-## 🚀 Ver en línea
-
-> Puedes visitar el portafolio en GitHub Pages:  
-> `https://tusuario.github.io/mi-portafolio/` *(Reemplaza por tu link real)*
-
 ## 📬 Contacto
 
 - Email: kata1800@gmail.com
