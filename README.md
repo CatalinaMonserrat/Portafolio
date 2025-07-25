@@ -2,6 +2,17 @@
 
 Este es mi portafolio personal desarrollado durante el Bootcamp de Skillnest. Aquí presento algunos de mis proyectos realizados, habilidades técnicas y blandas, y un resumen sobre mí como desarrolladora en formación.
 
+## Visualización del Sitio
+
+<p align="center">
+  <img src="assets/imagenes/sitio_portafolio.jpg" alt="Vista previa del proyecto" width="600"/>
+</p>
+
+<p align="center">
+  <img src="assets/imagenes/sitio_portafolio2.jpg" alt="Vista previa del proyecto" width="600"/>
+</p>
+
+
 ## 🌐 Tecnologías utilizadas
 
 - HTML5
