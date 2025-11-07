@@ -180,10 +180,14 @@ p {
   background: #000;
   border: 1px solid #ff00aa;
   border-radius: 10px;
-  padding: 20px;
+  padding: 25px 15px;
   margin: 20px;
-  box-shadow: 0 0 10px #ff00aa;
+  box-shadow: 0 0 15px #ff00aa;
   transition: transform .3s, box-shadow .3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  min-height: 180px; 
 }
 
 .tarjeta-habilidad:hover {
@@ -204,21 +208,11 @@ p {
 }
 
 .tarjeta-habilidad h3 {
-  font-size: clamp(1rem, 2vw, 1.5rem);
-}
-
-.barra-progreso {
-  width: 100%;
-  height: 10px;
-  background: #333;
-  border-radius: 5px;
-  overflow: hidden;
-}
-
-.progreso {
-  height: 100%;
-  background: #ff00aa;
-  transition: width .3s;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 1rem;
+  line-height: 1.2;
 }
 
 /* ===== Contacto / Footer ===== */
@@ -243,6 +237,15 @@ p {
   box-shadow: 0 0 10px #ff00aa;
 }
 
+.enlace-discreto {
+  color: #fff;
+  text-decoration: none;
+}
+
+.enlace-discreto:hover {
+  color: #ff00aa;
+  text-shadow: 0 0 8px #ff00aa;
+}
 /* ===== Responsivo ===== */
 @media (max-width:576px) {
   .parallax {
