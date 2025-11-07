@@ -1,36 +1,37 @@
+console.log('JS CARGADO:', new Date().toISOString());
+document.getElementById('space') && console.log('CANVAS OK');
+
 /* ========= STARFIELD CANVAS ========= */
 (function () {
     const canvas = document.getElementById('space');
     if (!canvas) return;
     const ctx = canvas.getContext('2d');
 
-    const DPR = Math.max(1, Math.min(window.devicePixelRatio || 1, 2)); // nitidez
     let W, H;
 
-    // --- resize: fija tamaño CSS + backing store + actualiza W/H ---
     function resize() {
         const dpr = Math.max(1, Math.min(window.devicePixelRatio || 1, 2));
         const w = window.innerWidth;
         const h = window.innerHeight;
 
+        // tamaño CSS
         canvas.style.width = w + "px";
         canvas.style.height = h + "px";
+        // backing store
         canvas.width = Math.floor(w * dpr);
         canvas.height = Math.floor(h * dpr);
+        // dibujar en "px CSS"
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-        W = w;                 // ⬅️ CLAVE: actualizar dimensiones lógicas
+        W = w;
         H = h;
     }
 
-    // Asegurar tamaño correcto al cargar y al redimensionar
-    window.addEventListener('load', () => {
-        resize();              // ⬅️ primera pasada con estilos aplicados
-        setTimeout(resize, 50); // ⬅️ segunda por si el CSS tardó
-    });
+    // Asegura tamaño al cargar (2 pasadas) y al redimensionar
+    window.addEventListener('load', () => { resize(); setTimeout(resize, 50); });
     window.addEventListener('resize', resize);
 
-    // ⬇️ CLAVE: inicializar W/H ANTES de crear las estrellas
+    // Inicializa ANTES de crear las estrellas
     resize();
 
     // Parámetros
