@@ -10,6 +10,13 @@
 
     const DPR = Math.max(1, Math.min(window.devicePixelRatio || 1, 2)); // nitidez
     let W, H;
+    // forcing a first layout AFTER CSS is applied
+    window.addEventListener('load', () => {
+        const ev = new Event('resize');
+        window.dispatchEvent(ev);
+        // segunda pasada por si el CSS tardó (raro, pero en Pages a veces)
+        setTimeout(() => window.dispatchEvent(new Event('resize')), 50);
+    });
 
     function resize() {
         W = canvas.clientWidth = window.innerWidth;
