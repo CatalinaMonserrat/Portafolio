@@ -10,16 +10,9 @@ En él presento una recopilación de mis **proyectos más destacados**, mis **ha
 Versión final publicada en GitHub Pages:  
 🔗 [https://catalinamonserrat.github.io/Portafolio/](https://catalinamonserrat.github.io/Portafolio/)
 
-- Sobre Mi
 ![Sección Sobre mí](imagenes/sobre_mi.png)
-
-- Proyectos_destacados
 ![Proyectos Destacados](imagenes/proyectos_destacados.png)
-
-- Mis habilidades
 ![Mis Habilidades](imagenes/mis_habilidades.png)
-
-- Contacto
 ![Sección de Contacto](imagenes/contacto.png)
 
 ---
@@ -36,12 +29,12 @@ Versión final publicada en GitHub Pages:
 ---
 
 ## Estructura del proyecto
-```bash
+
 - `/imagenes` → Contiene imágenes utilizadas en el sitio (perfil, proyectos, íconos, capturas).
 - `/js/script.js` → Archivo con funcionalidades interactivas (animaciones, botón “volver arriba”, etc.).
 - `/index.html` → Página principal del portafolio.
 - `README.md` → Documentación del proyecto.
-```
+
 ---
 
 ## Funcionalidades destacadas
