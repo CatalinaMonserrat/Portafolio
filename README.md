@@ -10,10 +10,10 @@ En él presento una recopilación de mis **proyectos más destacados**, mis **ha
 Versión final publicada en GitHub Pages:  
 🔗 [https://catalinamonserrat.github.io/Portafolio/](https://catalinamonserrat.github.io/Portafolio/)
 
-![Sección Sobre mí](https://github.com/CatalinaMonserrat/Portafolio/blob/main/imagenes/sobre_mi.png?raw=true)
-![Proyectos Destacados](https://github.com/CatalinaMonserrat/Portafolio/blob/main/imagenes/proyectos_destacados.png?raw=true)
-![Mis Habilidades](https://github.com/CatalinaMonserrat/Portafolio/blob/main/imagenes/mis_habilidades.png?raw=true)
-![Sección de Contacto](https://github.com/CatalinaMonserrat/Portafolio/blob/main/imagenes/contacto.png?raw=true)
+![Sección Sobre mí](imagenes/sobre_mi.png)
+![Proyectos Destacados](imagenes/proyectos_destacados.png)
+![Mis Habilidades](imagenes/mis_habilidades.png)
+![Sección de Contacto](imagenes/contacto.png)
 
 ---
 
