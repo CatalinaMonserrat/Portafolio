@@ -76,6 +76,28 @@ Durante este proceso he aprendido a combinar la **lógica del código con la est
 
 ---
 
+## Feedback y Retroalimentación
+
+Para mejorar mi portafolio técnico, solicité retroalimentación de dos compañeros del bootcamp. A partir de sus comentarios, realicé ajustes concretos en el contenido, diseño y estructura de mis proyectos. La retroalimentación principal fue la siguiente:
+
+- **Podrías incluir más proyectos recientes para reflejar tu progreso.**
+
+Como respuesta, incorporé tres proyectos nuevos y más avanzados:
+
+- Librería
+- Plataforma Gestión de Productos
+- Gestor Biblioteca
+
+Esto permitió mostrar una evolución más completa de mis habilidades durante el bootcamp.
+
+- **Sería útil agregar tus redes profesionales para facilitar el contacto.**
+
+Agregué íconos y enlaces directos a mis perfiles de GitHub y LinkedIn en la sección de contacto del portafolio web. Esto mejora la profesionalización y facilita que posibles reclutadores revisen mi trabajo.
+
+- **Algunas tarjetas se ven muy grandes en pantallas pequeñas.**
+
+Apliqué correcciones visuales utilizando clases responsive de Bootstrap y ajustes en márgenes y espaciados. Esto permitió mejorar la visualización en dispositivos móviles y lograr un diseño más accesible.
+
 ## Reflexión final
 
 Este portafolio refleja mi crecimiento durante el Bootcamp y el esfuerzo por consolidar mis conocimientos en **HTML, CSS, JavaScript y Python**.  
