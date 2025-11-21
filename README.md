@@ -59,6 +59,7 @@ Durante este proceso he aprendido a combinar la **lógica del código con la est
 
 | Proyecto | Descripción | Tecnologías |
 |-----------|--------------|--------------|
+| **Forgent Gestión Académica** Sistema web completo para gestionar programas, relatores, participantes e inscripciones. Incluye dashboard, CRUD, login/logout profesional, consultas SQL y ORM con MySQL. | Python, Django, MySQL, Bootstrap |
 | **Librería** | Aplicación web con Django y PostgreSQL para gestión de libros y autores. | Python, Django, Bootstrap |
 | **Gestión de Productos** | Sistema administrativo con autenticación y permisos. | Django, HTML, CSS |
 | **Gestor de Biblioteca** | Programa en Python (POO) con persistencia en archivos. | Python, POO |
@@ -72,7 +73,8 @@ Durante este proceso he aprendido a combinar la **lógica del código con la est
 
 - **Email:** [kata1800@gmail.com](mailto:kata1800@gmail.com)  
 - **GitHub:** [@CatalinaMonserrat](https://github.com/CatalinaMonserrat)  
-- **LinkedIn:** [Catalina Villegas Ortega](https://www.linkedin.com/in/catalina-villegas-ortega/)  
+- **LinkedIn:** [Catalina Villegas Ortega](https://www.linkedin.com/in/catalina-villegas-ortega/) 
+- **Portafolio en producción** [LINK](https://catalinamonserrat.github.io/Portafolio/)  
 
 ---
 
